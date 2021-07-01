@@ -1,0 +1,12 @@
+.overlay__text {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

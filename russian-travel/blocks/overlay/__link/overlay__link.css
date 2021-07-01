@@ -1,0 +1,10 @@
+.overlay__link {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  text-decoration: none;
+}
+
+.overlay__link:hover .overlay__cover{
+  opacity: .8;
+}

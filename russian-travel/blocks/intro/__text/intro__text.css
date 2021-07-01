@@ -1,0 +1,22 @@
+.intro__text {
+  margin: 0;
+  max-width: 690px;
+  padding-top: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+    }
+}
