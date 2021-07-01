@@ -1,0 +1,27 @@
+.overlay {
+  margin-top: 92px;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (width: 1024px) {
+  .overlay {
+    max-width: 1024px;
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .overlay {
+    margin-top: 90px;
+    max-width: 100%;
+  }
+}
+  
+
+@media screen and (max-width: 320px) {
+  .overlay {
+    margin-top: 66px;
+  }
+}

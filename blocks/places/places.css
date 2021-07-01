@@ -1,0 +1,20 @@
+.places {
+  padding: 0;
+  list-style-type: none;
+  max-width: 984px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1023px) {
+  .places {
+    padding: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0;
+  }
+}
