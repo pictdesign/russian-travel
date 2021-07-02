@@ -1,0 +1,29 @@
+.overlay__link {
+  display: block;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .5s linear;
+  padding: 245px 312px 245px 312px;
+}
+
+@media screen and (max-width: 1024px) {
+  .overlay__link {
+    padding: 195px 232px 195px 232px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .overlay__link {
+    padding: 115px 104px 115px 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .overlay__link {
+    padding: 33px 16px 33px 16px;
+  }
+}
+
+.overlay__link:hover{
+  background-color: rgba(42, 44, 47, .8);
+}
